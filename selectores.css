@@ -1,0 +1,50 @@
+/*
+
+Selector universal * para aplicar un estilo 
+a todos los elementos de la página, por ejemplo:
+
+* {
+	color: red;
+}
+
+Puede haber varios selectores separados por comas
+
+Selectores descendentes
+
+Selectores de etiqueta
+*/
+
+h1, h2, h3 {
+	color: blue;
+}
+
+h2 {
+	color: red;
+}
+
+body {
+/*	background-color: lightblue;
+*/
+	background: url('fondo.jpeg');
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position:  center center;
+}
+
+div article p {
+	font-size: 30px;
+	color: black;
+}
+
+/* Selectores descendentes */
+p a {
+	color: red;
+}
+
+/* Selectores de clase */
+
+.grande {
+	font-size: 30px;
+}
+
